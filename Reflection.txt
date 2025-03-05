@@ -1,5 +1,4 @@
 This is an example file for reflection in IBI1_2024-25.
 
-During this course, I have learnt version control, how to navigate Unix-like systems and how to write simple programs in Python.
-
-I have also learnt to write careful instructions when communicating online!
+during this practical, I have learnt how to link with GitHub and use commands.
+However, I still didn't make sense how learned "merge" work.
