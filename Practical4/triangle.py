@@ -15,3 +15,9 @@ for n in range(1,11):
     sum=(1+n)*n/2
     print(sum)
     sum=0
+
+
+sum=0
+for i in range(1,11):
+    sum+=i
+    print(sum)
