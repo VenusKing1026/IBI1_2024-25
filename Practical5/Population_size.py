@@ -17,7 +17,7 @@ uk_countries_lables=['England','Wales','Northern Ireland','Scotland']
 zj_neighbours_lables=['Zhejiang','Fujian','Jiangxi','Anhui','Jiangsu']
 
 # output 2 lists
-print(uk_countries,zj_neighbours)
+print('UK_countries:',uk_countries,'Zhejinag_neighbors:',zj_neighbours)
 
 # create a figure contains 2 plot
 fig,(plt1,plt2)=plt.subplots(1,2,figsize=(12,6))
