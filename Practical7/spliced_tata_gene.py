@@ -16,7 +16,11 @@ dict={}
 seq=''
 gene=[0]
 import re
-input=str(input('donator:'))      
+input=str(input('donator:'))    
+if not(input in ['ATAC','GCAG','GTAC']):
+    exit()
+    
+    
 for line in file:           #      
     if re.search(r'^>',line):
         dict[gene[0]]=seq
