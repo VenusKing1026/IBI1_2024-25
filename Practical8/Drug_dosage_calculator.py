@@ -13,5 +13,6 @@ def DrugDose(weight,sop):
     else:
         print('Error:Weight is not normal')
 
+#EXAMPLE
 DrugDose(50,0)
 DrugDose(0,0)
