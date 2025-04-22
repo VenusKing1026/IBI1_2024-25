@@ -13,8 +13,8 @@ from math import ceil
 progress=0 # initialise progress
 while progress>=0: 
 	progress+=1 #counter
-	first_n = randint(1,6) 
-	second_n = randint(1,6)
+	first_n = randint(1,5) 
+	second_n = randint(1,5)
 	if first_n == second_n:  # if they pick same number
 		print(progress)
 		break #find the same number, jump out

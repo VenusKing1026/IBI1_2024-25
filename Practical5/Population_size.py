@@ -11,13 +11,14 @@ import matplotlib.pyplot as plt
 # intialize data
 uk_countries=[57.11,3.13,1.91,5.45]
 zj_neighbours=[65.77,41.88,45.28,61.27,85.15]
-
+UK=sorted(uk_countries,reverse=True)
+ZJ=sorted(zj_neighbours,reverse=True)
 # initialize label
 uk_countries_lables=['England','Wales','Northern Ireland','Scotland']
 zj_neighbours_lables=['Zhejiang','Fujian','Jiangxi','Anhui','Jiangsu']
 
 # output 2 lists
-print('UK_countries:',uk_countries,'Zhejinag_neighbors:jy',zj_neighbours)
+print('UK_countries:',UK,'Zhejinag_neighbors:jy',ZJ)
 
 # create a figure contains 2 plot
 fig,(plt1,plt2)=plt.subplots(1,2,figsize=(12,6))

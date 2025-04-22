@@ -21,7 +21,7 @@ if not(input in ['ATAC','GCAG','GTAC']):
     exit()
     
     
-for line in file:           #      
+for line in file:            
     if re.search(r'^>',line):
         dict[gene[0]]=seq
         gene=re.findall(r'gene:(\S+)',line)
