@@ -1,0 +1,15 @@
+Length=222
+subcellular localisation:mitochondrial matrix
+
+percentage identities 58.1%-100%
+
+
+Score:
+   human vs mouse:1094
+   human vs random:890
+   mouse vs random:687
+
+similarity=0.9009
+
+most related: human and mouse in above task
+              A0A2R9BMB0 in BLAST 
