@@ -73,3 +73,4 @@ print('id:',max_key3,'is_a:',max_value3)
 
 t2=datetime.datetime.now()
 print(t2-t1)
+# runtime: around 1.5s, much more quick than DOM
