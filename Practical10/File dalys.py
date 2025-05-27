@@ -12,10 +12,11 @@ dalys_data=pd.read_csv('dalys-rate-from-all-causes.csv')
 # print(dalys_data.head(5))
 
 # # show third column for the first 10 rows
-print(dalys_data.iloc[:10,2])
-
-# !!!!the 10th year in Afghanistan
+# print(dalys_data.iloc[:10,2])
+#********************************
+# !!!!the 10th year in Afghanistan 1999
 print(dalys_data.iloc[9,2])
+#**********************************
 
 
 # #for balabal part

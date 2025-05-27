@@ -1,0 +1,16 @@
+practical_3:
+    problem: There is a reflections file but it was not in the week 3 folder
+
+    Fix: move reflection to practical3 folder
+
+practical_4
+    problem:It selects a random number between 1 and 6 not 1 and 5
+
+    Fix: randint(x,y) choose integer from x to y (include y)
+         randint(1,6)-->randint(1,5)
+
+
+Practical_5
+    problem: It prints the lists but they are not ordered
+
+    Fix: use sorted() to sort the two lists.

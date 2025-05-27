@@ -32,7 +32,7 @@ def recover(position):
     population[position[0],position[1]]=np.random.choice(range(1,3),1,p=[1-gama,gama])[0]
 
 #show the first patient
-plt.subplot(3,4,1)
+plt.subplot(2,2,1)
 plt.title('step:0')
 plt.imshow(population)
 
@@ -43,9 +43,9 @@ for n in range(0,101):
     for p in patient: 
         infect(p)
         recover(p)
-    if n in [10,20,30,40,50,60,70,80,90,100]: # show at 10,50,100 times
-        plot_position={10:2,20:3,30:4,40:5,50:6,60:7,70:8,80:9,90:10,100:11}
-        plt.subplot(3,4,plot_position[n])
+    if n in [10,50,100]: # show at 10,50,100 times
+        plot_position={10:2,50:3,100:4}
+        plt.subplot(2,2,plot_position[n])
         plt.imshow(population)
         plt.title('step:'+str(n))
 plt.tight_layout()
