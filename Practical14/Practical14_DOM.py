@@ -32,7 +32,7 @@ print('Cellular_components:')
 print('id:',max_key3,'is_a:',max_value3)
 t2=datetime.datetime.now()
 print(t2-t1)
-
+# around 10s , slower than SAX
 
 
 #for term in terms:
