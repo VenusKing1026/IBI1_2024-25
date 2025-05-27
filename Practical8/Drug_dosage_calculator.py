@@ -16,3 +16,6 @@ def DrugDose(weight,sop):
 #EXAMPLE
 DrugDose(50,0)
 DrugDose(0,0)
+a=int(input('Weight:'))
+b=int(input('paracetamol strength:'))
+DrugDose(a,b)

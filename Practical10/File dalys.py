@@ -19,7 +19,7 @@ print(dalys_data.iloc[9,2])
 
 
 # #for balabal part
-print(dalys_data.loc[dalys_data.Year==1990,'DALYs'])
+print(dalys_data.loc[dalys_data['Year']==1990,'DALYs'])
 
 #compare uk and france
 ukm=dalys_data.loc[dalys_data.Entity=='United Kingdom','DALYs'].mean()
